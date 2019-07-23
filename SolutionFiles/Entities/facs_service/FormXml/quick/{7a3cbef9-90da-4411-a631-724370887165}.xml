@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{7a3cbef9-90da-4411-a631-724370887165}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{d21f6967-4787-4a6a-b68c-48bc8f536fb0}" IsUserDefined="1">
+        <labels>
+          <label description="" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb2434ce-347a-4c02-ba13-ee2e8456b8ec}">
+                <labels>
+                  <label description="GENERAL" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{42cadd0c-c992-4fac-a011-92954bf594f2}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="facs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_name" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

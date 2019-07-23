@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Connection Role" OriginalName="">ConnectionRole</Name>
+  <EntityInfo>
+    <entity Name="ConnectionRole">
+      <attributes>
+        <attribute PhysicalName="Category">
+          <Type>picklist</Type>
+          <Name>category</Name>
+          <LogicalName>category</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>1</AppDefaultValue>
+          <OptionSetName>connectionrole_category</OptionSetName>
+          <displaynames>
+            <displayname description="Connection Role Category" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Categories for connection roles." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Name">
+          <Type>nvarchar</Type>
+          <Name>name</Name>
+          <LogicalName>name</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Name" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Name of the connection role." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StateCode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <optionset Name="connectionrole_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the connection role." languagecode="1033" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Status of the connection role." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>connectionroles</EntitySetName>
+      <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>OrgOwned</OwnershipTypeMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>0</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>0</IsMailMergeEnabled>
+      <IsVisibleInMobile>0</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters></MobileOfflineFilters>
+      <IsMapiGridEnabled>0</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+    </entity>
+  </EntityInfo>
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

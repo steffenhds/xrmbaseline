@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{1b553c0c-e413-4633-adb7-2811a091808f}</formid>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{3b503a3f-4e16-48a3-a0f9-290e8da5095c}" IsUserDefined="1">
+        <labels>
+          <label description="" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{9dddd244-ee12-48af-af0c-8ee1e1116960}">
+                <labels>
+                  <label description="GENERAL" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{f9f5779a-15d0-423a-8b63-a347380d00f1}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pfedyn_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{d25397ff-1f04-4548-a85c-f3329e2b2487}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

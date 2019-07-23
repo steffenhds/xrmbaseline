@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Contact Price List" OriginalName="Contact Price List">msdyn_contactpricelist</Name>
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{84a68b06-4e9f-e911-a97c-001dd800951b}" Name="Set Worker form Form Name field to Worker" Description="Sets the Worker form field Form Name to &quot;Worker&quot; to meet the filter criteria for the Contacts Workers view.">
+  <XamlFileName>/Workflows/SetWorkerformFormNamefieldtoWorker-84A68B06-4E9F-E911-A97C-001DD800951B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Set Worker form Form Name field to Worker" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Sets the Worker form field Form Name to &quot;Worker&quot; to meet the filter criteria for the Contacts Workers view." />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{f25eb712-4e9f-e911-a97c-001dd800951b}">
+      <controltype>1</controltype>
+      <formid>{4af0a750-9641-43d5-b4c1-ae51488cde99}</formid>
+      <scope>1</scope>
+      <controlname>createdon</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{f35eb712-4e9f-e911-a97c-001dd800951b}">
+      <formid>{4af0a750-9641-43d5-b4c1-ae51488cde99}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Contact</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

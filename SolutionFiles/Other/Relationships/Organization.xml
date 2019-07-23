@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="organization_facs_exitreason">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>facs_exitreason</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="organization_facs_familyfostercareplacement">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>facs_familyfostercareplacement</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="organization_facs_initialassessmentlist">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>facs_initialassessmentlist</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="organization_facs_recordcheck">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>facs_recordcheck</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="organization_facs_service">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>facs_service</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="organization_jarvis_t2">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>jarvis_t2</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

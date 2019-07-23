@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{7fd69946-e2dc-4707-8844-72e9bc718fa6}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{4a26e816-e647-4591-ae11-5b350e1a4a4f}" IsUserDefined="1" name="{4a26e816-e647-4591-ae11-5b350e1a4a4f}" expanded="true" locklevel="0" showlabel="true">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{b7449f50-55e2-4c07-af92-16ea9687c2f7}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{f4244e37-aeb3-4b3c-a7bd-6a7984f2430f}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_name" uniqueid="{b77921d7-0882-bdb7-4788-c622a9251d2e}" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{d5f00598-6cda-4444-aa04-78c666ebfb50}" showlabel="true" locklevel="1">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{a359ce13-9cee-74a0-b211-8535654ba3c1}" disabled="false">
+                        <parameters>
+                          <AutoResolve>true</AutoResolve>
+                          <DisableMru>false</DisableMru>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="tab_2" id="{a4412728-9e3d-dad0-c897-941116c8cc66}" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="50%">
+            <sections>
+              <section name="tab_2_section_1" showlabel="true" showbar="true" locklevel="0" id="{6368d742-c5a6-3c06-bb6a-80ecea4c43d4}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Connected To" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{856ba7b0-8e69-b87c-8d8c-6c3a8a6b0ea2}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_connectedto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_connectedto" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="tab_2_section_3" showlabel="true" showbar="true" locklevel="0" id="{996a683d-b943-10a3-03e3-9b728e61caa2}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Connected From" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{78dbca22-77c5-3a79-dae7-c5185d2a5496}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_connectedfrom" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_connectedfrom" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="tab_2_section_5" showlabel="false" showbar="false" locklevel="0" id="{9b773935-d12b-e7ad-3825-0de9bd629668}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{2cd3a603-686a-7d75-334e-ee84aa2cd078}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_family" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_family" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="50%">
+            <sections>
+              <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{0099802a-ea77-67e1-080d-5ddc495e5686}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{457e1990-a3c3-da22-7605-b3a394802c5c}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_connectedtorole" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_connectedtorole" disabled="false" uniqueid="{33981376-7315-b203-898e-ada120c5bec9}" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="tab_2_section_4" showlabel="true" showbar="true" locklevel="0" id="{c03ece88-001d-1632-bb5b-b152614bd780}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Role" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{21c2dd0d-c3cd-5e28-a3ea-4ac009db1222}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_connectedfromrole" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_connectedfromrole" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

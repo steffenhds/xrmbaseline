@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form showImage="true">
+    <tabs>
+      <tab name="DETAILS_TAB" id="{fe1c5c3b-d556-4552-a444-4781214a6d63}" IsUserDefined="0" expanded="true" showlabel="true" ordinalvalue="2">
+        <columns>
+          <column width="34%" id="0">
+            <sections>
+              <section name="PERSONAL INFORMATION" showlabel="true" showbar="false" id="{0F64B9A3-01F2-4411-B0B5-6C6C39D7B011}" IsUserDefined="0" columns="1" labelwidth="115" celllabelposition="Left" locklevel="0" celllabelalignment="Left" ordinalvalue="0" solutionaction="Modified">
+                <rows>
+                  <row>
+                    <cell id="{cb391eb8-02ec-0ee6-9d92-6996d4311809}" showlabel="true" ordinalvalue="10000" solutionaction="Removed" />
+                  </row>
+                  <row>
+                    <cell id="{2d8cee50-7123-01e7-c2cc-0068c0ecc4c0}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Modified">
+                      <control id="familystatuscode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="familystatuscode" disabled="false" uniqueid="{9136668a-e14d-526e-d0a7-b48068da6d83}" solutionaction="Modified" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{bac50a31-27a0-c7e2-3ab3-5d6aa8895c6e}" showlabel="true" ordinalvalue="10003" solutionaction="Removed" />
+                  </row>
+                  <row>
+                    <cell id="{ba714204-2499-db47-78e0-d8795307301d}" showlabel="true" ordinalvalue="10004" solutionaction="Removed" />
+                  </row>
+                  <row>
+                    <cell id="{d143672b-cd30-c868-cde2-9481db5addb3}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{e47c5c3a-9c3b-00c0-11dc-53e912c23a32}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_sex" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_sex" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="urstab" id="{652516c4-a4ec-4153-7887-62b9e1843a29}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" ordinalvalue="3">
+        <columns>
+          <column width="33%" id="1">
+            <sections>
+              <section name="tab_3_section_2" showlabel="false" showbar="false" locklevel="0" id="{b98eb619-e949-52bd-cb5c-6388b192a521}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{50aa5058-68d0-4075-9079-6970ca8f6eb6}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%" id="2">
+            <sections>
+              <section name="tab_3_section_3" showlabel="false" showbar="false" locklevel="0" id="{b010ac97-5133-cbca-ca7b-04e981a1db9a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{3643a1c3-99c0-4453-ae8b-908326ba69a6}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar>
+        <NavBarByRelationshipItem RelationshipName="contact_bookableresource_ContactId" Sequence="10000" Area="Info" Id="nav_contact_bookableresource_ContactId" Show="false" solutionaction="Removed" />
+        <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/PurchaseOrder_32.png" RelationshipName="msdyn_contact_msdyn_purchaseorder_VendorSalesPerson" Sequence="10000" Client="Web" Area="Info" Id="nav_msdyn_contact_msdyn_purchaseorder_VendorSalesPerson" Show="false" solutionaction="Removed" />
+      </NavBar>
+    </Navigation>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Contact" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Updated default Contact form." languagecode="1033" />
+  </Descriptions>
+</systemform>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}</formid>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form enablerelatedinformation="false" shownavigationbar="true" hasmargin="false">
+    <tabs showlabels="true">
+      <tab name="general" verticallayout="true" id="{564b9a08-4626-46f5-8bd8-3d31e17a8873}" IsUserDefined="0" ordinalvalue="0">
+        <columns>
+          <column width="40%" id="1">
+            <sections>
+              <section name="TabsControl" showlabel="false" showbar="false" id="{052a7135-3315-4fd9-91b6-8355cef8bb09}" IsUserDefined="0" locklevel="0" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{423a4d0c-b9d2-492f-b070-e446e4ea16c7}" colspan="2" rowspan="25" showlabel="false" locklevel="0" ordinalvalue="10000">
+                      <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" uniqueid="{3ab5287c-352a-8ab3-dd85-bda2c2655d3a}" solutionaction="Modified">
+                        <parameters>
+                          <FilterResults solutionaction="Modified">3</FilterResults>
+                          <UClientUniqueName solutionaction="Added">Timeline</UClientUniqueName>
+                          <UClientModules solutionaction="Added">Activities,Notes,Posts</UClientModules>
+                          <UClientDefaultModuleForCreateExperience solutionaction="Added">Notes</UClientDefaultModuleForCreateExperience>
+                          <UClientShowFilterPane solutionaction="Added">true</UClientShowFilterPane>
+                          <UClientExpandFilterPane solutionaction="Added">false</UClientExpandFilterPane>
+                          <UClientOrderBy solutionaction="Added">descending</UClientOrderBy>
+                          <UClientRecordPerPage solutionaction="Added">10</UClientRecordPerPage>
+                          <UClientSortActivitiesByValue solutionaction="Added">modifiedon</UClientSortActivitiesByValue>
+                          <UClientDisplayActivityHeaderUsing solutionaction="Added">defaultformat</UClientDisplayActivityHeaderUsing>
+                          <UClientCreateActivityUsing solutionaction="Added">quickcreateform</UClientCreateActivityUsing>
+                          <UClientDisplayActivityUsing solutionaction="Added">defaultfields</UClientDisplayActivityUsing>
+                          <OrderByActivityWall solutionaction="Added">descending</OrderByActivityWall>
+                          <SortActivityWall solutionaction="Added">modifiedon</SortActivityWall>
+                          <EmailConversationView solutionaction="Added">true</EmailConversationView>
+                          <AutoSuggestionSource solutionaction="Added">0</AutoSuggestionSource>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Case" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Updated default Case form." languagecode="1033" />
+  </Descriptions>
+</systemform>

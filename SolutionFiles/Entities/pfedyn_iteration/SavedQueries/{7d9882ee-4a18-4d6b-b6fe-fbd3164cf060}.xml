@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{7d9882ee-4a18-4d6b-b6fe-fbd3164cf060}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="pfedyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="pfedyn_iterationid">
+        <cell name="pfedyn_name" width="300" />
+        <cell name="pfedyn_startdate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        <cell name="pfedyn_releasedate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="pfedyn_iteration">
+        <attribute name="pfedyn_name" />
+        <order attribute="pfedyn_releasedate" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="pfedyn_startdate" />
+        <attribute name="pfedyn_releasedate" />
+        <attribute name="pfedyn_iterationid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Active Iterations" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

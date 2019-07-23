@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Response Outcome" OriginalName="Response Outcome">msdyn_responseoutcome</Name>
+  <RibbonDiffXml />
+</Entity>

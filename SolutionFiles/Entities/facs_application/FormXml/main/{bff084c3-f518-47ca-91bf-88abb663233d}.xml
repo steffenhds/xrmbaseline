@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{bff084c3-f518-47ca-91bf-88abb663233d}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{bb96e8e8-7916-475a-916a-a3c6b65f3b7f}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{38d61fc1-ab17-4a3a-939d-a9f6a624230e}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{bf7bfcd0-0c31-4b17-afaa-88bef6e41d03}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="facs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{8f29b725-3008-43d7-b430-cdb63b7400c9}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

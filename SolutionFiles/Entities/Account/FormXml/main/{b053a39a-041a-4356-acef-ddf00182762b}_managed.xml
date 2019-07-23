@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{b053a39a-041a-4356-acef-ddf00182762b}</formid>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FormPresentation>0</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form showImage="true">
+    <tabs>
+      <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{1b269530-f7e3-4939-887c-20fba8cafbad}" ordinalvalue="0" solutionaction="Removed" />
+      <tab name="general" verticallayout="true" id="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}" IsUserDefined="0" ordinalvalue="0" solutionaction="Modified">
+        <columns>
+          <column width="100%" id="0">
+            <sections>
+              <section name="account information" showlabel="false" showbar="false" id="{407c4e29-b766-4efb-986c-f4c1d9be75ce}" IsUserDefined="0" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{01289424-a3c2-4c71-815b-cb5f2bfaf9ce}" ordinalvalue="20009" solutionaction="Removed" />
+                  </row>
+                  <row>
+                    <cell id="{2da1da4c-d03b-b621-ebc8-819d66ee449e}" showlabel="true" colspan="1" auto="false" rowspan="1" ordinalvalue="20009" solutionaction="Added">
+                      <labels>
+                        <label description="Rating" languagecode="1033" />
+                      </labels>
+                      <control id="WebResource_Rating" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <parameters>
+                          <Url>pfedyn_/Pages/ratingcontrol.htm</Url>
+                          <Data>min=1|max=5|field=pfedyn_rating|showvalue=true</Data>
+                          <PassParameters>false</PassParameters>
+                          <ShowOnMobileClient>false</ShowOnMobileClient>
+                          <Security>false</Security>
+                          <Scrolling>no</Scrolling>
+                          <Border>false</Border>
+                          <WebResourceId>{78A6902F-54B2-E811-9467-00155D018000}</WebResourceId>
+                        </parameters>
+                      </control>
+                      <events>
+                        <event name="onload" application="0">
+                          <dependencies />
+                        </event>
+                      </events>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{3b7022c5-c476-0ec9-94e4-941469980d0a}" showlabel="false" ordinalvalue="10010" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{28e96a91-83c3-a4d2-b6cc-8cc4ec3796b5}" showlabel="true" locklevel="0" visible="false" ordinalvalue="20011" solutionaction="Added">
+                      <labels>
+                        <label description="Rating" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_rating" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="pfedyn_rating" disabled="false" uniqueid="{9c116d87-00b7-6158-1b7b-06e5524b0b87}" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="details" id="{e8642bdb-3b0b-4ce4-bcca-646d04e856cb}" IsUserDefined="0" ordinalvalue="1" solutionaction="Modified">
+        <columns>
+          <column width="100%" id="0">
+            <sections>
+              <section name="professional information" showlabel="true" showbar="true" id="{2bb37cd5-2d02-47cc-8464-27e5aa1c400d}" IsUserDefined="0" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{02f048e0-e417-409e-8e3f-c9a5197f6035}" showlabel="false" ordinalvalue="20006" solutionaction="Modified" />
+                  </row>
+                </rows>
+              </section>
+              <section name="description_2" id="{22c54202-b263-46e5-9676-47112c3be47d}" ordinalvalue="1">
+                <rows>
+                  <row>
+                    <cell id="{29760e45-5a38-4b2a-b8d0-fd99fb62f6d1}" showlabel="false" ordinalvalue="20001" solutionaction="Modified" />
+                  </row>
+                </rows>
+              </section>
+              <section name="billing information" id="{0243b19c-f88a-410c-9d90-0862142c56e2}" ordinalvalue="2">
+                <rows>
+                  <row>
+                    <cell id="{811dc54d-f71e-4364-93f4-71e00074d317}" showlabel="false" ordinalvalue="20003" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{1eefa848-c48d-47c9-8ff4-796403c5a51a}" ordinalvalue="10004">
+                      <labels>
+                        <label description="Product Price List" languagecode="1033" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="contacts" id="{52c46fc3-c588-42d2-b24a-764536e3ce79}" IsUserDefined="0" ordinalvalue="2" solutionaction="Modified" />
+      <tab name="notes and activities" id="{61710424-A7C1-4db5-9489-788BCDCF267A}" IsUserDefined="0" expanded="false" ordinalvalue="3" solutionaction="Modified" />
+      <tab name="administration" id="{5b8906be-c80f-4c26-8ba2-b07f45cb2936}" IsUserDefined="0" ordinalvalue="4" solutionaction="Modified">
+        <columns>
+          <column width="100%" id="0">
+            <sections>
+              <section name="internal information" showlabel="false" showbar="false" id="{e40e4201-ddc0-4384-bb7a-44dd8be88ec6}" IsUserDefined="0" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{4e4fe577-cb53-47ba-a2de-2742f5611843}" showlabel="false" ordinalvalue="20001" solutionaction="Modified" />
+                  </row>
+                </rows>
+              </section>
+              <section name="contact methods" showlabel="true" showbar="true" id="{842b89e4-8f3a-46b3-9d23-291eb8685ce9}" IsUserDefined="0" ordinalvalue="1">
+                <rows>
+                  <row>
+                    <cell id="{360d95eb-8ba4-41be-b8ad-5e9feed28f0c}" ordinalvalue="20001" solutionaction="Removed" />
+                    <cell id="{555ac5ba-3a26-428d-bcc2-2186f3e99b55}" ordinalvalue="20001" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{d93684af-638d-4d77-836b-189505b7d6f4}" ordinalvalue="30002" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}" showlabel="false" ordinalvalue="20007" solutionaction="Modified" />
+                    <cell id="{bfb257f8-67c8-4169-a7e9-a2da7567919a}" ordinalvalue="30005" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{7efb5294-1d1c-4f78-9918-03dd80563cfb}" showlabel="false" ordinalvalue="20010" solutionaction="Modified" />
+                    <cell id="{d7d1b7be-f90b-47a7-9180-30036602f70a}" ordinalvalue="30008" solutionaction="Modified" />
+                  </row>
+                  <row>
+                    <cell id="{286f2836-b3df-498d-8f97-a6e5360b2e0e}" ordinalvalue="30011" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <header id="{2b89aa75-b991-4875-88b0-d7ed40d2aaf3}" celllabelposition="Top">
+      <rows>
+        <row>
+          <cell id="{bbdd44c3-d521-352e-db99-e0507da47822}" showlabel="false" ordinalvalue="30005" solutionaction="Modified" />
+        </row>
+      </rows>
+    </header>
+    <Navigation>
+      <NavBar>
+        <NavBarByRelationshipItem RelationshipName="Account_CustomerAddress" Id="navAddresses" TitleResourceId="Tab_Label_MoreAddresses" Sequence="10" Area="Info" solutionaction="Modified">
+          <Titles solutionaction="Added">
+            <Title LCID="1033" Text="More Addresses" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="account_parent_account" Id="navSubAct" Icon="/_imgs/area/18_subAccounts.gif" TitleResourceId="Label_SubAccounts" Sequence="40" Area="Info" solutionaction="Modified">
+          <Titles solutionaction="Added">
+            <Title LCID="1033" Text="Sub-Accounts" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="Account_ActivityPointers" Id="navActivities" Icon="/_imgs/ico_18_act.gif" Sequence="20" Area="Info" solutionaction="Modified">
+          <Titles solutionaction="Added">
+            <Title LCID="1033" Text="Activities" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="Account_ActivityPointers" Id="navActivityHistory" TitleResourceId="Tab_Label_History" Icon="/_imgs/ico_18_history.gif" ViewId="21E2B905-6FDB-470d-8517-AD69B4C01268" Sequence="20" Area="Info" solutionaction="Modified">
+          <Titles solutionaction="Added">
+            <Title LCID="1033" Text="Closed Activities" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="account_customer_relationship_customer" Id="navRelationships" TitleResourceId="Left_Nav_Area_Relationships" Sequence="60" Area="Info" solutionaction="Modified">
+          <Titles solutionaction="Added">
+            <Title LCID="1033" Text="Relationships" />
+          </Titles>
+        </NavBarByRelationshipItem>
+      </NavBar>
+      <NavBarAreas solutionaction="Added">
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <formLibraries solutionaction="Removed" />
+    <controlDescriptions solutionaction="Added" />
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

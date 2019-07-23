@@ -1,0 +1,2100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Contact" OriginalName="Contact">Contact</Name>
+  <EntityInfo>
+    <entity Name="Contact">
+      <attributes>
+        <attribute PhysicalName="Address1_AddressTypeCode">
+          <Type>picklist</Type>
+          <Name>address1_addresstypecode</Name>
+          <LogicalName>address1_addresstypecode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <optionset Name="contact_address1_addresstypecode">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Address 1: Address Type" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Type of address for address 1, such as billing, shipping, or primary address." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="451330000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Select Address Type" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330101" ExternalValue="" Color="">
+                <labels>
+                  <label description="Mailing Address" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330102" ExternalValue="" Color="">
+                <labels>
+                  <label description="Home Address" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330104" ExternalValue="" Color="">
+                <labels>
+                  <label description="Independent Living Mailing" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330105" ExternalValue="" Color="">
+                <labels>
+                  <label description="Independent Living Home" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330106" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Independent Home Work" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330107" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Independent Living Vol. Payee" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330201" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Facilitator Address" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Address 1: Address Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the primary address type." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Age">
+          <Type>bit</Type>
+          <Name>facs_age</Name>
+          <LogicalName>facs_age</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_age">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Age" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Secondary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Age" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_BiracialBackground">
+          <Type>bit</Type>
+          <Name>facs_biracialbackground</Name>
+          <LogicalName>facs_biracialbackground</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_biracialbackground">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Biracial Background" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Secondary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Biracial Background" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Comments">
+          <Type>ntext</Type>
+          <Name>facs_comments</Name>
+          <LogicalName>facs_comments</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MaxLength>2000</MaxLength>
+          <displaynames>
+            <displayname description="Comments" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_DateDeceased">
+          <Type>datetime</Type>
+          <Name>facs_datedeceased</Name>
+          <LogicalName>facs_datedeceased</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Date Deceased" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_DateOfBirth">
+          <Type>datetime</Type>
+          <Name>facs_dateofbirth</Name>
+          <LogicalName>facs_dateofbirth</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Date of Birth" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Delinquent">
+          <Type>bit</Type>
+          <Name>facs_delinquent</Name>
+          <LogicalName>facs_delinquent</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_delinquent">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Delinquent" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Secondary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Delinquent" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_EmployerName">
+          <Type>lookup</Type>
+          <Name>facs_employername</Name>
+          <LogicalName>facs_employername</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Employer Name" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_EmployerPhone">
+          <Type>nvarchar</Type>
+          <Name>facs_employerphone</Name>
+          <LogicalName>facs_employerphone</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>phone</Format>
+          <MaxLength>15</MaxLength>
+          <Length>30</Length>
+          <displaynames>
+            <displayname description="Employer Phone" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_EndDate">
+          <Type>datetime</Type>
+          <Name>facs_enddate</Name>
+          <LogicalName>facs_enddate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="End Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Ethnicity">
+          <Type>picklist</Type>
+          <Name>facs_ethnicity</Name>
+          <LogicalName>facs_ethnicity</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_ethnicity</OptionSetName>
+          <displaynames>
+            <displayname description="Ethnicity" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Family">
+          <Type>lookup</Type>
+          <Name>facs_family</Name>
+          <LogicalName>facs_family</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Family" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_FinancialCounty">
+          <Type>picklist</Type>
+          <Name>facs_financialcounty</Name>
+          <LogicalName>facs_financialcounty</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_counties</OptionSetName>
+          <displaynames>
+            <displayname description="Financial County" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_FormName">
+          <Type>nvarchar</Type>
+          <Name>facs_formname</Name>
+          <LogicalName>facs_formname</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Form Name" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_MaritalStatus">
+          <Type>picklist</Type>
+          <Name>facs_maritalstatus</Name>
+          <LogicalName>facs_maritalstatus</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_maritalstatus</OptionSetName>
+          <displaynames>
+            <displayname description="Marital Status" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_MaritalStatusAdoptiveParents">
+          <Type>picklist</Type>
+          <Name>facs_maritalstatusadoptiveparents</Name>
+          <LogicalName>facs_maritalstatusadoptiveparents</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_maritalstatus</OptionSetName>
+          <displaynames>
+            <displayname description="Adoptive Parents' Marital Status At Adoption Time" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_MaritalStatusBirthParents">
+          <Type>picklist</Type>
+          <Name>facs_maritalstatusbirthparents</Name>
+          <LogicalName>facs_maritalstatusbirthparents</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_maritalstatus</OptionSetName>
+          <displaynames>
+            <displayname description="Birth Parents' Marital Status At Time of Birth" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_MedicalConditionorDisability">
+          <Type>bit</Type>
+          <Name>facs_medicalconditionordisability</Name>
+          <LogicalName>facs_medicalconditionordisability</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_medicalconditionordisability">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Medical Condition or Disability" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Secondary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Medical Condition or Disability" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_MembershipinSiblingGroup">
+          <Type>bit</Type>
+          <Name>facs_membershipinsiblinggroup</Name>
+          <LogicalName>facs_membershipinsiblinggroup</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_membershipinsiblinggroup">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Membership in Sibling Group" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Secondary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Membership in Sibling Group" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Occupation">
+          <Type>nvarchar</Type>
+          <Name>facs_occupation</Name>
+          <LogicalName>facs_occupation</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Occupation" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_ParentContactId">
+          <Type>lookup</Type>
+          <Name>facs_parentcontactid</Name>
+          <LogicalName>facs_parentcontactid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Parent Contact" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_PaternityEST">
+          <Type>bit</Type>
+          <Name>facs_paternityest</Name>
+          <LogicalName>facs_paternityest</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_paternityest">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Paternity EST" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Paternity EST" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Pregnant">
+          <Type>bit</Type>
+          <Name>facs_pregnant</Name>
+          <LogicalName>facs_pregnant</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_pregnant">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Pregnant" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Pregnant" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_PrimaryCaseManager">
+          <Type>picklist</Type>
+          <Name>facs_primarycasemanager</Name>
+          <LogicalName>facs_primarycasemanager</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_casemanager</OptionSetName>
+          <displaynames>
+            <displayname description="Primary Case Manager" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_PriorAdoptionDate">
+          <Type>datetime</Type>
+          <Name>facs_prioradoptiondate</Name>
+          <LogicalName>facs_prioradoptiondate</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Prior Adoption Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_PriorAdoptionFlag">
+          <Type>picklist</Type>
+          <Name>facs_prioradoptionflag</Name>
+          <LogicalName>facs_prioradoptionflag</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <optionset Name="facs_contact_facs_prioradoptionflag">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Prior Adoption Flag" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="451330000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Select Adoption Flag" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330002" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Unknown" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330003" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Prior Adoption Flag" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Race">
+          <Type>picklist</Type>
+          <Name>facs_race</Name>
+          <LogicalName>facs_race</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_race</OptionSetName>
+          <displaynames>
+            <displayname description="Race" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_RacialEthnicBackground">
+          <Type>bit</Type>
+          <Name>facs_racialethnicbackground</Name>
+          <LogicalName>facs_racialethnicbackground</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_racialethnicbackground">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Racial/Ethnic Background" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Secondary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Racial/Ethnic Background" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Religion">
+          <Type>picklist</Type>
+          <Name>facs_religion</Name>
+          <LogicalName>facs_religion</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_religion</OptionSetName>
+          <displaynames>
+            <displayname description="Religion" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_ResidenceCounty">
+          <Type>picklist</Type>
+          <Name>facs_residencecounty</Name>
+          <LogicalName>facs_residencecounty</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_counties</OptionSetName>
+          <displaynames>
+            <displayname description="Residence County" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_SecondaryCaseManager">
+          <Type>picklist</Type>
+          <Name>facs_secondarycasemanager</Name>
+          <LogicalName>facs_secondarycasemanager</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_casemanager</OptionSetName>
+          <displaynames>
+            <displayname description="Secondary Case Manager" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Sex">
+          <Type>picklist</Type>
+          <Name>facs_sex</Name>
+          <LogicalName>facs_sex</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_sex</OptionSetName>
+          <displaynames>
+            <displayname description="Sex" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_SSN">
+          <Type>nvarchar</Type>
+          <Name>facs_ssn</Name>
+          <LogicalName>facs_ssn</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>15</MaxLength>
+          <Length>30</Length>
+          <displaynames>
+            <displayname description="SSN" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_StartDate">
+          <Type>datetime</Type>
+          <Name>facs_startdate</Name>
+          <LogicalName>facs_startdate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Start Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_StateRepsonsibleForFinalization">
+          <Type>picklist</Type>
+          <Name>facs_staterepsonsibleforfinalization</Name>
+          <LogicalName>facs_staterepsonsibleforfinalization</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_state</OptionSetName>
+          <displaynames>
+            <displayname description="State Repsonsible For Finalization" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_Suffix">
+          <Type>picklist</Type>
+          <Name>facs_suffix</Name>
+          <LogicalName>facs_suffix</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>451330000</AppDefaultValue>
+          <OptionSetName>facs_suffix</OptionSetName>
+          <displaynames>
+            <displayname description="Suffix" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_TypeOfAdoption">
+          <Type>picklist</Type>
+          <Name>facs_typeofadoption</Name>
+          <LogicalName>facs_typeofadoption</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="facs_contact_facs_typeofadoption">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Type of Adoption" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="451330000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Select Type of Adoption" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330101" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Foreign" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330102" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Public" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330103" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Private" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330104" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Tribal" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Type of Adoption" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_TypeofDisability">
+          <Type>multiselectpicklist</Type>
+          <Name>facs_typeofdisability</Name>
+          <LogicalName>facs_typeofdisability</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <optionset Name="facs_contact_facs_typeofdisability">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Type of Disability" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="451330000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Blind or Visually Impaired" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Deaf or Hard of Hearing" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330002" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Physically Disabled" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330003" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Learning Disability" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330004" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Intellectual Disability" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330005" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Emotionally Disturbed" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330006" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Medical Condition" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330007" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Special Needs Considerations" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330008" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Alcohol Abuse" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330009" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Drug Abuse" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Type of Disability" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_UnaccompaniedRefugeeMinor">
+          <Type>bit</Type>
+          <Name>facs_unaccompaniedrefugeeminor</Name>
+          <LogicalName>facs_unaccompaniedrefugeeminor</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="facs_contact_facs_unaccompaniedrefugeeminor">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Unaccompanied Refugee Minor" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Special Needs field" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Court" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Voluntary" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Unaccompanied Refugee Minor" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Special Needs field" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_WorkerFormName">
+          <Type>nvarchar</Type>
+          <Name>facs_workerformname</Name>
+          <LogicalName>facs_workerformname</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="WorkerFormName" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="facs_WorkHours">
+          <Type>nvarchar</Type>
+          <Name>facs_workhours</Name>
+          <LogicalName>facs_workhours</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>10</MaxLength>
+          <Length>20</Length>
+          <displaynames>
+            <displayname description="Work Hours" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="FamilyStatusCode">
+          <Type>picklist</Type>
+          <Name>familystatuscode</Name>
+          <LogicalName>familystatuscode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="contact_familystatuscode">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Marital Status" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Marital status of the contact." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="451330000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Select Marital Status" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330100" ExternalValue="" Color="">
+                <labels>
+                  <label description="Married" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330101" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Never Married" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330102" ExternalValue="" Color="">
+                <labels>
+                  <label description="Divorced" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330103" ExternalValue="" Color="">
+                <labels>
+                  <label description="Widowed" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330104" ExternalValue="" Color="">
+                <labels>
+                  <label description="Separated" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330105" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Unknown" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Marital Status" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the marital status of the contact for reference in follow-up phone calls and other communications." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="jarvis_t2contactId">
+          <Type>lookup</Type>
+          <Name>jarvis_t2contactid</Name>
+          <LogicalName>jarvis_t2contactid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="t2 contact" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for t2 associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ParentCustomerId">
+          <Type>customer</Type>
+          <Name>parentcustomerid</Name>
+          <LogicalName>parentcustomerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <displaynames>
+            <displayname description="Company Name" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="PreferredContactMethodCode">
+          <Type>picklist</Type>
+          <Name>preferredcontactmethodcode</Name>
+          <LogicalName>preferredcontactmethodcode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>1</AppDefaultValue>
+          <optionset Name="contact_preferredcontactmethodcode">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Preferred Method of Contact" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Preferred contact method for the contact." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" Color="">
+                <labels>
+                  <label description="Any" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="3" ExternalValue="" Color="">
+                <labels>
+                  <label description="Home Phone" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="451330001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Mobile Phone" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="4" ExternalValue="" Color="">
+                <labels>
+                  <label description="Business Phone" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="2" ExternalValue="" Color="">
+                <labels>
+                  <label description="Email" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="5" ExternalValue="" Color="">
+                <labels>
+                  <label description="Mail" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Preferred Method of Contact" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the preferred method of contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>contacts</EntitySetName>
+      <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
+      <EntityColor>#005088</EntityColor>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <EntityMask>ActivityPointer</EntityMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>1</IsMailMergeEnabled>
+      <IsVisibleInMobile>1</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+			&lt;entity name="contact"&gt;
+				&lt;filter type="and"&gt;
+					&lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+				&lt;/filter&gt;
+			&lt;/entity&gt;
+		&lt;/fetch&gt;
+      </MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>1</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <HasRelatedNotes>True</HasRelatedNotes>
+      <HasRelatedFeedback>True</HasRelatedFeedback>
+      <HasRelatedActivities>True</HasRelatedActivities>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+  <HierarchyRules>
+    <HierarchyRule>
+      <HierarchyRuleID>{8a552504-e970-e911-a976-001dd800a749}</HierarchyRuleID>
+      <PrimaryEntityFormID>{707fc57b-c5e6-471b-a180-e37ed28a38e2}</PrimaryEntityFormID>
+      <PrimaryEntityLogicalName>contact</PrimaryEntityLogicalName>
+      <ShowDisabled>1</ShowDisabled>
+      <IntroducedVersion>1.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <LocalizedNames>
+        <LocalizedName description="facs_hierarchy_contact" languagecode="1033" />
+      </LocalizedNames>
+    </HierarchyRule>
+  </HierarchyRules>
+</Entity>

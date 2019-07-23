@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_weekday" localizedName="Weekday">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Weekday" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Weekday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Sunday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Monday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Tuesday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Wednesday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Thursday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Friday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Saturday" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

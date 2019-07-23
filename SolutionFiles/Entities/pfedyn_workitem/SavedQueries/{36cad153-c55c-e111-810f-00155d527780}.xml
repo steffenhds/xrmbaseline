@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <savedqueryid>{36cad153-c55c-e111-810f-00155d527780}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="pfedyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="pfedyn_workitemid">
+        <cell name="pfedyn_wbsnumber" width="50" />
+        <cell name="pfedyn_name" width="200" />
+        <cell name="pfedyn_type" width="100" />
+        <cell name="ownerid" width="125" />
+        <cell name="pfedyn_estimatedhours" width="75" />
+        <cell name="pfedyn_actualhours" width="75" />
+        <cell name="pfedyn_etchours" width="75" />
+        <cell name="pfedyn_estimatedstartdate" width="100" />
+        <cell name="pfedyn_estimatedcompletiondate" width="100" />
+        <cell name="pfedyn_priority" width="75" />
+        <cell name="statuscode" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="pfedyn_workitem">
+        <attribute name="pfedyn_name" />
+        <order attribute="pfedyn_wbsnumber" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="pfedyn_type" />
+        <attribute name="statuscode" />
+        <attribute name="pfedyn_priority" />
+        <attribute name="ownerid" />
+        <attribute name="pfedyn_etchours" />
+        <attribute name="pfedyn_estimatedstartdate" />
+        <attribute name="pfedyn_estimatedhours" />
+        <attribute name="pfedyn_estimatedcompletiondate" />
+        <attribute name="pfedyn_actualhours" />
+        <attribute name="pfedyn_wbsnumber" />
+        <attribute name="pfedyn_workitemid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Active Work Items Sub-Grid View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

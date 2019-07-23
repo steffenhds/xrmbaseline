@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{e2f906db-8609-4212-a132-0cd24a14765a}</savedqueryid>
+  <queryapi></queryapi>
+  <layoutxml>
+    <grid name="resultset" jump="name" select="1" icon="1" preview="0">
+      <row name="result" id="connectionroleid">
+        <cell name="name" width="300" />
+        <cell name="category" width="150" />
+        <cell name="statecode" width="150" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical">
+      <entity name="connectionrole">
+        <attribute name="category" />
+        <attribute name="name" />
+        <attribute name="statecode" />
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="name" operator="like" value="{0}" />
+        </filter>
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <order attribute="category" descending="false" />
+        <attribute name="connectionroleid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Connection Roles" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

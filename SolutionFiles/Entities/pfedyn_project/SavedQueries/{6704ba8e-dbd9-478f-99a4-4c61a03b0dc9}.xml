@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{6704ba8e-dbd9-478f-99a4-4c61a03b0dc9}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="pfedyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="pfedyn_projectid">
+        <cell name="pfedyn_name" width="200" />
+        <cell name="pfedyn_customer" width="150" />
+        <cell name="pfedyn_projectmanager" width="125" />
+        <cell name="pfedyn_totalestimatedhours" width="75" />
+        <cell name="pfedyn_totalactualhours" width="75" />
+        <cell name="pfedyn_totaletchours" width="75" />
+        <cell name="pfedyn_estimatedcompletiondate" width="100" />
+        <cell name="pfedyn_priority" width="75" />
+        <cell name="statuscode" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="pfedyn_project">
+        <attribute name="pfedyn_name" />
+        <order attribute="pfedyn_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="pfedyn_name" operator="like" value="{0}" />
+        </filter>
+        <attribute name="pfedyn_totaletchours" />
+        <attribute name="pfedyn_totalestimatedhours" />
+        <attribute name="pfedyn_totalactualhours" />
+        <attribute name="statuscode" />
+        <attribute name="pfedyn_projectmanager" />
+        <attribute name="pfedyn_priority" />
+        <attribute name="pfedyn_estimatedcompletiondate" />
+        <attribute name="pfedyn_customer" />
+        <attribute name="pfedyn_projectid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Projects" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

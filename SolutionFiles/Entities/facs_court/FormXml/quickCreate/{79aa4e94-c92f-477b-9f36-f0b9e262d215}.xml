@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{79aa4e94-c92f-477b-9f36-f0b9e262d215}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1920">
+    <tabs>
+      <tab id="{9e255982-3736-4a05-b314-ce49624ac8ee}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section id="{074ce9a7-ba79-49e0-8a2e-3a554556265e}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{329ed8e4-36b5-3531-049e-63d9106784a3}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Adjudication Reason" languagecode="1033" />
+                      </labels>
+                      <control id="facs_adjudicationreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_adjudicationreason" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{919923d4-1a93-48d8-b175-29e8445c036a}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{155732a2-4d96-9241-ee87-c78e48938121}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Adjudication Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_adjudicationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_adjudicationdate" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{12da3889-ed56-43d6-adea-a4eaca9fe7d4}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{0e183b65-91b7-220d-8e5d-0684638e2bee}" showlabel="false" userspacer="true">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Adjudication" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{1fd73494-2513-44ee-84cd-0f778e68a0bd}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="facs_name" select="1" icon="1" preview="1">
+      <row name="result" id="facs_recordcheckid">
+        <cell name="facs_name" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="facs_recordcheck">
+        <attribute name="facs_recordcheckid" />
+        <attribute name="facs_name" />
+        <attribute name="createdon" />
+        <order attribute="facs_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="facs_name" operator="like" value="{0}" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Record Checks" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

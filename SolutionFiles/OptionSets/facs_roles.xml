@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_roles" localizedName="Roles">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Roles" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Role" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330025" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Attorney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330015" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Aunt" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330032" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Babysitter/Daycare Personnel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330012" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Brother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330026" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="CASA" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Child" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330022" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Cousin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330044" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Client" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Daughter" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330033" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Domestic Employee" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Ex Spouse/Partner" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Father" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330038" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Father's Attorney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330042" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Granddaughter" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330013" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Grandfather" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330014" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Grandmother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330043" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Grandson" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330040" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Half Brother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330041" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Half Sister" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330031" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Homemaker" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="ICAR Father" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="ICAR Mother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330024" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="J.C.O." languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330028" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Minister" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Mother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330037" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Mother's Attorney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330027" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Neighbor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330036" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330021" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other Non-Rel Household Member" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330034" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Paramour" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330039" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Parent's Attorney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330029" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Physician/Other Medical Personnel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330035" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Provider" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330023" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="School Personnel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Sibling" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330011" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Sister" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Son" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Spouse" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330017" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Step-Brother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330020" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Step-Father" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330019" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Step-Mother" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330018" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Step-Sister" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330030" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Therapist" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330016" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Uncle" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

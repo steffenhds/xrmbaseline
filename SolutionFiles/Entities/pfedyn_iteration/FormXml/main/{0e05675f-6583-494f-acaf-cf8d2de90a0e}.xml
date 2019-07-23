@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{0e05675f-6583-494f-acaf-cf8d2de90a0e}</formid>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{44f8660e-12ef-4390-b339-8754312fa720}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{a5c8823f-f5e5-4672-88d4-8a9535b89cd6}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{7b29644d-df64-4582-ade1-25e710afb0b3}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pfedyn_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{b65a0b86-af04-49ce-85d3-3fc177c60b77}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="66%">
+            <sections>
+              <section showlabel="false" showbar="false" id="{3136ef95-3bfd-4162-afc5-0ea0d9feedf2}" IsUserDefined="0" height="auto">
+                <labels>
+                  <label description="Notes" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell showlabel="false" rowspan="15" auto="false" id="{36d5b7f1-098a-43e6-8ea5-d15df46a0f4d}">
+                      <labels>
+                        <label description="Note Text" languagecode="1033" />
+                      </labels>
+                      <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                        <parameters>
+                          <DefaultTabId>NotesTab</DefaultTabId>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row height="auto"></row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="general_timelinedetails" id="{94c07076-260e-285a-e29c-35cba6b49240}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <labels>
+          <label description="Timeline Details" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="34%">
+            <sections>
+              <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{cb2b2317-7156-5b22-2dd0-50dc65a8c92e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{49370b95-7b8c-7a04-0743-bcd820749278}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Start Date" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="pfedyn_startdate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{6e77ec5c-318b-3108-aa97-5108ae7b45b2}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Release Date" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_releasedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="pfedyn_releasedate" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{ccdcb310-4dbd-d6e5-751d-92d5804ab62c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{5972087e-3d45-333e-0d4b-724eb0857168}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section name="tab_2_section_3" showlabel="false" showbar="false" locklevel="0" id="{739c50d5-e56a-860b-a21e-d3eb8482b33e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{7c2e9834-1102-ad7e-8ba0-2365a36ee883}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar>
+        <NavBarByRelationshipItem RelationshipName="pfedyn_iteration_workitem" Id="nav_pfedyn_iteration_workitem" Sequence="8500" Area="Info">
+          <Titles>
+            <Title LCID="1033" Text="Work Items" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Area="Info" Id="navConnections" Sequence="8501">
+          <Titles>
+            <Title LCID="1033" Text="Connections" />
+          </Titles>
+        </NavBarByRelationshipItem>
+      </NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

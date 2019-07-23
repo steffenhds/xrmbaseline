@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Case to Work Order Business Process" OriginalName="Case to Work Order Business Process">msdyn_bpf_989e9b1857e24af18787d5143b67523b</Name>
+  <EntityInfo>
+    <entity Name="msdyn_bpf_989e9b1857e24af18787d5143b67523b">
+      <attributes>
+        <attribute PhysicalName="bpf_incidentid">
+          <Type>lookup</Type>
+          <Name>bpf_incidentid</Name>
+          <LogicalName>bpf_incidentid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Incident" languagecode="1033" />
+          </displaynames>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Quote Line Detail" OriginalName="Quote Line Detail">msdyn_quotelinetransaction</Name>
+  <RibbonDiffXml />
+</Entity>

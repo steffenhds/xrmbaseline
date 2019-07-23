@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{eb0cd750-29fe-4abf-9381-03a9ecd32aab}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="pfedyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="pfedyn_workitemid">
+        <cell name="pfedyn_wbsnumber" width="50" />
+        <cell name="pfedyn_name" width="200" />
+        <cell name="pfedyn_type" width="100" />
+        <cell name="pfedyn_projectid" width="150" />
+        <cell name="ownerid" width="125" />
+        <cell name="pfedyn_actualhours" width="75" />
+        <cell name="pfedyn_estimatedhours" width="75" />
+        <cell name="pfedyn_etchours" width="75" />
+        <cell name="pfedyn_estimatedstartdate" width="100" />
+        <cell name="pfedyn_estimatedcompletiondate" width="100" />
+        <cell name="pfedyn_priority" width="75" />
+        <cell name="statuscode" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="pfedyn_workitem">
+        <attribute name="pfedyn_name" />
+        <order attribute="pfedyn_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="pfedyn_name" operator="like" value="{0}" />
+        </filter>
+        <attribute name="pfedyn_type" />
+        <attribute name="statuscode" />
+        <attribute name="pfedyn_projectid" />
+        <attribute name="pfedyn_priority" />
+        <attribute name="ownerid" />
+        <attribute name="pfedyn_etchours" />
+        <attribute name="pfedyn_estimatedstartdate" />
+        <attribute name="pfedyn_estimatedhours" />
+        <attribute name="pfedyn_estimatedcompletiondate" />
+        <attribute name="pfedyn_actualhours" />
+        <attribute name="pfedyn_wbsnumber" />
+        <attribute name="pfedyn_workitemid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Work Items" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

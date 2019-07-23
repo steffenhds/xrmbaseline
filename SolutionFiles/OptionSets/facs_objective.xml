@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_objective" localizedName="Objective">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Objective" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Objective" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330100" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Supportive Services For Employment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330101" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Child Day Care Service For Training" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330102" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Remove Barriers To Self-Sufficiency" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330103" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Alternate Living Arrangements" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330104" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Protection For Children" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330105" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Treatment For Children (Potentially) Abused, Neglected" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330106" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Protection For Elderly And Handicapped Adults" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330107" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Preserving, Rehabilitating Or Reuniting Families" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330108" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Enable Elderly And Handicapped To Remain In Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330109" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Placements For Children/Adults Due To Person/Family Dysfunction" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330110" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Services To Handicapped Children To Remain With Family" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330111" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Services To Children Who Need Adoptive Homes" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330112" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Evaluation Services To Persons In Health Care Facility" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330113" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Out Of Home Care" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330114" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Services To Children In Institutions" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

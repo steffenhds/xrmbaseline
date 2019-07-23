@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{f31b4709-affc-4123-a256-cfec1fb14ec0}</formid>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FormPresentation>0</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{f1b27cd3-375b-4a58-8b0b-d865df3ce5b4}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{8d03b7b0-f690-4173-9c8d-ec6d99a12404}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{0a9380b2-58ae-d1c8-71ca-5ca341c5ec83}" showlabel="true" locklevel="0" colspan="2">
+                      <labels>
+                        <label description="Project" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_projectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pfedyn_projectid" disabled="false">
+                        <parameters>
+                          <AutoResolve>true</AutoResolve>
+                          <DisableMru>false</DisableMru>
+                          <DisableQuickFind>false</DisableQuickFind>
+                          <DisableViewPicker>false</DisableViewPicker>
+                          <DefaultViewId>{89DFD757-5B6D-4F03-AFAC-45CE68A09C60}</DefaultViewId>
+                          <AllowFilterOff>false</AllowFilterOff>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="{f1b27cd3-375b-4a58-8b0b-d865df3ce5b4}_section_4" showlabel="false" showbar="false" locklevel="0" id="{a9d03198-aa6c-8c76-b7e8-6bc1cd9a1a51}" IsUserDefined="0" layout="varwidth" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Title" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{6e708981-a432-c2ad-2454-21ce7ddb2328}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="WBS #" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_wbsnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pfedyn_wbsnumber" disabled="false" />
+                    </cell>
+                    <cell id="{a5df88f3-5bb1-4a53-8e95-33aa7cefb60c}" showlabel="true" locklevel="0" colspan="3">
+                      <labels>
+                        <label description="Title" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pfedyn_name" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="{f1b27cd3-375b-4a58-8b0b-d865df3ce5b4}_section_5" showlabel="false" showbar="false" locklevel="0" id="{1014bd63-bc81-9854-5a02-7cbbb2465052}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Details" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{77abbb89-506a-876d-7b70-7998b9423bdc}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Iteration" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_iterationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pfedyn_iterationid" disabled="false" uniqueid="{33536b72-0516-15d8-375e-9adcc050789c}">
+                        <parameters>
+                          <AutoResolve>true</AutoResolve>
+                          <DisableMru>false</DisableMru>
+                          <DisableQuickFind>false</DisableQuickFind>
+                          <DisableViewPicker>false</DisableViewPicker>
+                          <DefaultViewId>{7D9882EE-4A18-4D6B-B6FE-FBD3164CF060}</DefaultViewId>
+                          <AvailableViewIds>{7D9882EE-4A18-4D6B-B6FE-FBD3164CF060}</AvailableViewIds>
+                          <FilterRelationshipName>pfedyn_project_iteration</FilterRelationshipName>
+                          <DependentAttributeName>pfedyn_workitem.pfedyn_projectid</DependentAttributeName>
+                          <DependentAttributeType>pfedyn_project</DependentAttributeType>
+                          <AllowFilterOff>false</AllowFilterOff>
+                        </parameters>
+                      </control>
+                    </cell>
+                    <cell id="{03a666f8-480e-40bd-bf75-fe43ff045cf4}">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{aadc3d73-da10-0651-25b8-011ca6cb5ee0}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Type" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="pfedyn_type" disabled="false" />
+                    </cell>
+                    <cell id="{be6adaae-eab0-4553-1015-8a1aa85eddd4}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Milestone" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_ismilestone" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="pfedyn_ismilestone" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{8b4b66ee-1eca-54e5-3500-dcbb614463a0}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Status Reason" languagecode="1033" />
+                      </labels>
+                      <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                    </cell>
+                    <cell id="{9d9ccc61-1952-8106-1918-cede92077aa2}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Blocked" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_isblocked" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="pfedyn_isblocked" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{8c5b03a4-8140-d501-b04b-10b08d04121e}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Priority" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="pfedyn_priority" disabled="false" />
+                    </cell>
+                    <cell id="{06e35760-7b1b-c991-8713-ebd8a54b6ce9}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="{f1b27cd3-375b-4a58-8b0b-d865df3ce5b4}_section_2" showlabel="true" showbar="true" locklevel="0" id="{d2489223-947d-ce67-37a1-526963486ad5}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Schedule" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{0c30553e-6250-2154-6702-d64583731b2c}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Est. Start" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_estimatedstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="pfedyn_estimatedstartdate" disabled="false" />
+                    </cell>
+                    <cell id="{b1e3e58e-ed4a-dc5c-14ca-7a6be5279205}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Est. Completion" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_estimatedcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="pfedyn_estimatedcompletiondate" disabled="false" />
+                    </cell>
+                    <cell id="{b2c79da4-abe4-6086-77a0-9bee93e880a2}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Est. Duration (Days)" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_estimateddurationdays" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="pfedyn_estimateddurationdays" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+              <section name="{f1b27cd3-375b-4a58-8b0b-d865df3ce5b4}_section_3" showlabel="false" showbar="false" locklevel="0" id="{a1963da1-4acd-b642-2a3d-a4e54e0a66e7}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Actual Schedule" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{1d35b36b-44bd-3da4-91bc-24ad10a8e828}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Actual Start" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_actualstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="pfedyn_actualstartdate" disabled="false" />
+                    </cell>
+                    <cell id="{b25cc834-5142-a6be-b941-dbcb046a89a5}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Actual Completion" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_actualcompletiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="pfedyn_actualcompletiondate" disabled="false" />
+                    </cell>
+                    <cell id="{1aca7e93-5d59-7aa0-3b3a-c7daa7bdac2d}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Actual Duration (Days)" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_actualdurationdays" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="pfedyn_actualdurationdays" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="tab_3" id="{12301307-b989-b374-9059-d192ca4b3d91}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <labels>
+          <label description="Effort (Hours)" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{d5708cc0-3c21-2d80-06de-80ada9cceb81}" IsUserDefined="0" layout="varwidth" columns="1111" labelwidth="85" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{07304102-81a8-1a52-c848-ec406704be9a}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Estimate" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_estimatedhours" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="pfedyn_estimatedhours" disabled="false" />
+                    </cell>
+                    <cell id="{067ee23e-607a-9dce-c2bd-927578dec466}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Completed" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_actualhours" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="pfedyn_actualhours" disabled="false" />
+                    </cell>
+                    <cell id="{0060058a-4aa3-c72c-e455-42dc742142ca}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Remaining" languagecode="1033" />
+                      </labels>
+                      <control id="pfedyn_etchours" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="pfedyn_etchours" disabled="false" />
+                    </cell>
+                    <cell id="{7b992a25-2d1e-c776-d134-3d604871183c}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab id="{4af4ce94-5525-4109-be6e-1e7679e6d19e}" IsUserDefined="0" expanded="false">
+        <labels>
+          <label description="Notes" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" id="{4b1fc5c9-eeca-4720-abf8-382a5df4c20f}" IsUserDefined="0" height="auto">
+                <labels>
+                  <label description="Notes" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{ed252d18-819b-42e1-a616-f5f2111de879}">
+                      <labels>
+                        <label description="Note Text" languagecode="1033" />
+                      </labels>
+                      <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                    </cell>
+                  </row>
+                  <row></row>
+                  <row></row>
+                  <row></row>
+                  <row height="auto"></row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <header id="{a019c391-82f6-46c8-a084-3aa58254e1d3}" columns="111">
+      <rows>
+        <row>
+          <cell id="{2101878d-5da9-ab90-02cc-23a7e85e3983}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="WBS #" languagecode="1033" />
+            </labels>
+            <control id="header_pfedyn_wbsnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pfedyn_wbsnumber" disabled="true" />
+          </cell>
+          <cell id="{793c9b92-86b4-4f81-9654-1ea261acc835}" showlabel="false">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+          </cell>
+          <cell id="{90ac8c3a-d124-b323-33e2-5c05560ad9c3}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Owner" languagecode="1033" />
+            </labels>
+            <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </header>
+    <footer id="{af4d81e9-71dd-4799-87ff-2cc55c982f4c}" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+      <rows>
+        <row>
+          <cell id="{5927e8f7-bb52-417c-b8e9-bb625000c9f1}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+            <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+          </cell>
+          <cell id="{da91bee0-019c-9e95-4038-70564989eea2}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Created By" languagecode="1033" />
+            </labels>
+            <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+          </cell>
+          <cell id="{de9715e9-d2ed-b870-6330-8642226eedc3}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+        </row>
+        <row>
+          <cell id="{abbbe4cb-8e02-e202-5d6a-eb1aba3e08d2}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Status Reason" languagecode="1033" />
+            </labels>
+            <control id="footer_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="true" />
+          </cell>
+          <cell id="{de80465a-ad1e-930a-6189-aee80c603b4b}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Modified By" languagecode="1033" />
+            </labels>
+            <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+          </cell>
+          <cell id="{8e8381be-4d46-7a30-a610-ec5713938467}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Modified On" languagecode="1033" />
+            </labels>
+            <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Processes" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

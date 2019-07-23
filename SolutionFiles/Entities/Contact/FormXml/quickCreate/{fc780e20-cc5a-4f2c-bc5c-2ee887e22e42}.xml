@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{fc780e20-cc5a-4f2c-bc5c-2ee887e22e42}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1920">
+    <tabs>
+      <tab id="{6c916a3e-8697-4c60-9959-a2309a99a818}" name="tab_1" showlabel="false" expanded="true" locklevel="0">
+        <labels>
+          <label description="Employment Information" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section id="{9abacfba-46d8-4ec9-856e-b0682843e078}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{447a65ba-6a87-4d12-8859-e23e7b35d9a8}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Employer Name" languagecode="1033" />
+                      </labels>
+                      <control id="facs_employername" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_employername" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{a9e6ad31-8803-6267-66a7-ccad990e1667}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Employer Phone" languagecode="1033" />
+                      </labels>
+                      <control id="facs_employerphone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_employerphone" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{3d68e1bb-de65-7033-6c9b-605116b99dea}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Occupation" languagecode="1033" />
+                      </labels>
+                      <control id="facs_occupation" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_occupation" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{6800ee2b-8345-514b-87aa-655a43451b4e}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Work Hours" languagecode="1033" />
+                      </labels>
+                      <control id="facs_workhours" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_workhours" disabled="false" uniqueid="{13ca73e0-969b-3112-19d4-9ab068993544}" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{c25c306a-8ed0-49c8-91f8-fc69e82659bd}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{9d440c50-3dde-0c76-acca-1dd23c437b1e}" showlabel="false" userspacer="true">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{1d899b42-ebb8-4c14-ae2d-974f2ee44917}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{62c0d5c4-b702-82b5-7881-01aed69565dc}" showlabel="false" userspacer="true">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="3">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Employer" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

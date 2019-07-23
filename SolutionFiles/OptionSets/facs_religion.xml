@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_religion" localizedName="Religion">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Religion" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Religion" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330100" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Methodist" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330101" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Jewish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330102" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Catholic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330103" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Protestant" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330104" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Presbyterian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330105" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Muslem" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330106" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hindu" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330107" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Baptist" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330108" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Lutheran" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330109" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Reformed" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330110" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Christian Science" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330111" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pentecostal" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330112" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330113" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Unknown" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

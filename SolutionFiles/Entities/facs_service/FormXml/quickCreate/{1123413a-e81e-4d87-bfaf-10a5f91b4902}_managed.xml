@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{1123413a-e81e-4d87-bfaf-10a5f91b4902}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1920">
+    <tabs>
+      <tab id="{f03522fd-958e-4401-91be-b836ae4487f0}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section id="{7616cb13-ef2c-496e-90e2-aa50b2b91ce5}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{8b82a687-d280-0be0-9e7c-bdd85702de39}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                      <control id="facs_varpprovider" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_varpprovider" disabled="true" uniqueid="{19ddaa34-4540-a223-1420-4a03a68be3dd}" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{fff48e00-931f-4d89-bda8-10bc3cc84ca7}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{1fddc91b-28f9-4d5e-a032-ac8942761c25}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{2aaabd1f-cf77-4266-91da-beb6b3e35a58}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{171307a1-4a16-4781-abbb-235e37406e80}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <controlDescriptions />
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="VARP" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

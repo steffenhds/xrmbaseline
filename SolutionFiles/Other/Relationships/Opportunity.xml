@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="adx_opportunity_account">
+    <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+    <IntroducedVersion>8.1.8</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <FirstEntityName>Opportunity</FirstEntityName>
+    <SecondEntityName>Account</SecondEntityName>
+    <IntersectEntityName>adx_opportunity_account</IntersectEntityName>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>adx_opportunity_account</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Partner Collaboration" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>adx_opportunity_account</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Partner Collaboration" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="adx_opportunity_contact">
+    <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+    <IntroducedVersion>7.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <FirstEntityName>Opportunity</FirstEntityName>
+    <SecondEntityName>Contact</SecondEntityName>
+    <IntersectEntityName>adx_opportunity_contact</IntersectEntityName>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Sales</NavPaneArea>
+        <NavPaneOrder>100100</NavPaneOrder>
+        <NavigationPropertyName>adx_opportunity_contact</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Associated Opportunities" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>100100</NavPaneOrder>
+        <NavigationPropertyName>adx_opportunity_contact</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Opportunity Contacts" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

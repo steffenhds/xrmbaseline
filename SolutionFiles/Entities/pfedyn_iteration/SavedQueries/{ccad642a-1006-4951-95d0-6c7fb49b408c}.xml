@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{ccad642a-1006-4951-95d0-6c7fb49b408c}</savedqueryid>
+  <layoutxml>
+    <grid name="" jump="pfedyn_name" select="1" icon="1" preview="1">
+      <row name="pfedyn_iteration" id="pfedyn_iterationid">
+        <cell name="pfedyn_name" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>2</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="pfedyn_iteration">
+        <attribute name="pfedyn_iterationid" />
+        <attribute name="pfedyn_name" />
+        <attribute name="createdon" />
+        <order attribute="pfedyn_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Iteration Associated View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

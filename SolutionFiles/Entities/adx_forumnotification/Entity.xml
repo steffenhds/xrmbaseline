@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Forum Notification" OriginalName="Forum Notification">adx_forumnotification</Name>
+  <RibbonDiffXml />
+</Entity>

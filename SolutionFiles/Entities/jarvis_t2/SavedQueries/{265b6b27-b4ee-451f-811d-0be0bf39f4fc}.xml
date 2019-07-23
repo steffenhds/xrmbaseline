@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <savedqueryid>{265b6b27-b4ee-451f-811d-0be0bf39f4fc}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="jarvis_name" select="1" icon="1" preview="1">
+      <row name="result" id="jarvis_t2id">
+        <cell name="jarvis_name" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="jarvis_t2">
+        <attribute name="jarvis_t2id" />
+        <attribute name="jarvis_name" />
+        <attribute name="createdon" />
+        <order attribute="jarvis_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="1" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Inactive t2" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

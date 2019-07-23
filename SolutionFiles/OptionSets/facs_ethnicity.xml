@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_ethnicity" localizedName="Ethnicity">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Ethnicity" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Ethnicity" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hispanic and Latino" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Not Hispanic or Latino" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Unable to Determine" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Declined" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

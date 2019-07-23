@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{4cde3751-6973-4a43-ab7c-a6f81bc58219}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form shownavigationbar="false" showImage="false" maxWidth="1920">
+    <tabs>
+      <tab verticallayout="true" id="{d3fa462a-1173-431f-a9ca-1392f65a5aaf}" IsUserDefined="1" labelid="{e4a15b01-f5d6-4e1d-80dd-58dd40a056dc}">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{9552132e-3dac-42ba-b488-db1002a5d7b0}" labelid="{aa138cc8-8449-4e16-89fc-37e1e37da54e}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{d32e817e-cf0c-4cbb-88ff-32a55e0808fd}" labelid="{427c28bf-c404-42d7-a6d7-908a3b797314}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="facs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{36522938-3136-4d04-b9ab-c82687b418ed}" labelid="{d7d1ab45-57fe-470d-a25e-5ee77dadaa49}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="tab_2" id="{866d3883-034a-15b9-6304-e406524038e3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{23292495-0497-4d82-894d-15057120ce70}">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="30%">
+            <sections>
+              <section name="CourtDetails" showlabel="true" showbar="true" locklevel="0" id="{d0d462b0-bbc5-b30d-2cdd-c570e6530a9c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{b108bdb7-f100-44b9-a03b-b2a3f256a80e}" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="COURT DETAILS" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{910d64b7-4516-1de9-ccb4-bcb74c04621b}" showlabel="true" locklevel="0" labelid="{c9046d54-3794-49ff-9f48-d136d1097dc3}">
+                      <labels>
+                        <label description="Court Event" languagecode="1033" />
+                      </labels>
+                      <control id="facs_courtevent" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_courtevent" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{8c45343b-dea7-eb2a-4a65-2c964a67390c}" showlabel="true" locklevel="0" labelid="{e44ac2f2-f62e-44c3-89fb-fa733550db0a}">
+                      <labels>
+                        <label description="Event Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_eventdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_eventdate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{9d949b5d-3cd0-a1c2-261d-6bb891b63be9}" showlabel="true" locklevel="0" labelid="{dcf8515d-f711-4bb8-817e-eb04defaa35b}">
+                      <labels>
+                        <label description="Docket Number" languagecode="1033" />
+                      </labels>
+                      <control id="facs_docketnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="facs_docketnumber" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{7ac1d388-6999-349c-2690-17c60c745d62}" showlabel="true" locklevel="0" labelid="{1f1aaf91-c205-434a-bb49-392d6feda580}">
+                      <labels>
+                        <label description="Disposition/Modification" languagecode="1033" />
+                      </labels>
+                      <control id="facs_dispositionmodification" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_dispositionmodification" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{36a53214-47a4-ad0e-5c7e-d47539928a18}" showlabel="true" locklevel="0" labelid="{4fd65e2a-41d0-4dfa-a4da-f370135e5e57}">
+                      <labels>
+                        <label description="Legal Status" languagecode="1033" />
+                      </labels>
+                      <control id="facs_legalstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_legalstatus" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{cbbc9a20-db48-9700-541a-92007760d645}" showlabel="true" locklevel="0" labelid="{dac63c64-db07-4737-a547-e8f8bd25d880}">
+                      <labels>
+                        <label description="Petition Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_petitiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_petitiondate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{3b4d15e3-bd30-4978-c0a4-ba8b243a3d2a}" showlabel="true" locklevel="0" labelid="{1902b667-238c-4ea9-a2f3-7518074445ba}">
+                      <labels>
+                        <label description="Order Filed Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_orderfiledate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_orderfiledate" disabled="false" uniqueid="{861b2178-ca71-4992-472a-1d9a73e09cc8}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{77054185-b427-70ae-8bb0-38e62e77b7b0}" showlabel="true" locklevel="0" labelid="{52dae6e4-fa64-420e-91ab-308e4c449848}">
+                      <labels>
+                        <label description="Order RECD Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_orderrecddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_orderrecddate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{331346a8-718a-9631-47bb-4514985a1c07}" showlabel="true" locklevel="0" labelid="{38c5b069-3ad0-4b91-94b3-6c550f5cad34}">
+                      <labels>
+                        <label description="Reasonable Efforts" languagecode="1033" />
+                      </labels>
+                      <control id="facs_reasonableefforts" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="facs_reasonableefforts" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="30%">
+            <sections>
+              <section name="CourtMembers" showlabel="true" showbar="true" locklevel="0" id="{4dc67034-6529-0b80-1b8a-4e5b67bc5771}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{613817f3-2494-4dd0-bddf-5c5866f9cf5a}" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="COURT MEMBERS" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{7094576c-5d65-4249-6dd4-60bd5b4e2ad0}" showlabel="true" locklevel="0" labelid="{3c05a06b-281c-4fb4-abe2-b26a28682a82}">
+                      <labels>
+                        <label description="Judge" languagecode="1033" />
+                      </labels>
+                      <control id="facs_judge" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_judge" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{b2ed81dd-71a9-5cab-7ae5-747bdce2c702}" showlabel="true" locklevel="0" labelid="{720270a1-b246-4eaf-887f-11d8358550b0}">
+                      <labels>
+                        <label description="Country Attorney" languagecode="1033" />
+                      </labels>
+                      <control id="facs_countryattorney" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_countryattorney" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{17422166-8be4-3913-bae8-a9166a9a3ec6}" showlabel="true" locklevel="0" labelid="{5abb901c-a73a-4e64-856c-f5eb1f76b12d}">
+                      <labels>
+                        <label description="Attorney" languagecode="1033" />
+                      </labels>
+                      <control id="facs_attorney" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_attorney" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{63e9de31-903d-3a87-e09e-d689d7ce1e93}" showlabel="true" locklevel="0" labelid="{3189a515-26b6-43f2-a763-a319d5ef49f9}">
+                      <labels>
+                        <label description="Guardian AD Litem" languagecode="1033" />
+                      </labels>
+                      <control id="facs_guardianadlitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_guardianadlitem" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{2cb99005-c62a-b1ae-dee9-9c00da4bc860}" showlabel="true" locklevel="0" labelid="{39e84b0b-6d4b-4d79-88f2-9dee39a19010}">
+                      <labels>
+                        <label description="Special Advocate" languagecode="1033" />
+                      </labels>
+                      <control id="facs_specialadvocate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="facs_specialadvocate" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="40%">
+            <sections>
+              <section name="Adjudication" showlabel="true" showbar="true" locklevel="0" id="{334b17ed-66ba-9369-eadd-6e1b5a60456d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{b9f756f4-cf7c-4a68-949f-2935cd7b33a2}" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="ADJUDICATION" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{65573dc7-2644-2ee2-333e-2502534c89c8}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{5da27776-6e9d-445b-ab5d-75239551b9a7}">
+                      <labels>
+                        <label description="Process Sessions (Regarding)" languagecode="1033" />
+                      </labels>
+                      <control id="Adjudications" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <parameters>
+                          <ViewId>{8C003E75-EBCE-4155-A920-3270DFDC5667}</ViewId>
+                          <IsUserView>false</IsUserView>
+                          <RelationshipName>facs_court_ProcessSession</RelationshipName>
+                          <TargetEntityType>processsession</TargetEntityType>
+                          <AutoExpand>Fixed</AutoExpand>
+                          <EnableQuickFind>false</EnableQuickFind>
+                          <EnableViewPicker>false</EnableViewPicker>
+                          <ViewIds>{8C003E75-EBCE-4155-A920-3270DFDC5667}</ViewIds>
+                          <EnableJumpBar>false</EnableJumpBar>
+                          <ChartGridMode>Grid</ChartGridMode>
+                          <VisualizationId />
+                          <IsUserChart>false</IsUserChart>
+                          <EnableChartPicker>false</EnableChartPicker>
+                          <RecordsPerPage>4</RecordsPerPage>
+                          <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <footer id="{fdec393c-f72c-479f-80fb-10805aaa48f7}" columns="111">
+      <rows>
+        <row>
+          <cell id="{0a31b8b1-aa3e-446c-ea3d-71bc04b6380c}" showlabel="true" locklevel="0" labelid="{f18cbc7e-c904-46e2-9601-234f68a745d9}">
+            <labels>
+              <label description="Created By" languagecode="1033" />
+            </labels>
+            <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+          </cell>
+          <cell id="{ed8423c4-01d5-43e0-1cb0-110bac604a52}" showlabel="true" locklevel="0" labelid="{0f21f5b6-c9ae-4fb1-b736-11d3be28e2ec}">
+            <labels>
+              <label description="Modified On" languagecode="1033" />
+            </labels>
+            <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+          </cell>
+          <cell id="{5668a31b-08c2-0254-33a2-397163ee9926}" showlabel="false" userspacer="true" labelid="{2ebd4a45-6186-4f3b-9b03-d3c56b8a86bd}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+          </cell>
+        </row>
+        <row>
+          <cell id="{1692625d-0228-902d-42c6-2e7a77398088}" showlabel="true" locklevel="0" labelid="{788ea9d8-c01e-46ed-b537-040d646f8c8d}">
+            <labels>
+              <label description="Modified By" languagecode="1033" />
+            </labels>
+            <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+          </cell>
+          <cell id="{0287cbc6-7bb8-2851-d874-4e7d99d23a74}" showlabel="true" locklevel="0" labelid="{78d8c64e-aef2-4393-b409-78f4e6750d8d}">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+          <cell id="{8e1204c3-12e9-4b0c-568c-d790760b9ce5}" showlabel="false" userspacer="true" labelid="{5f118474-d148-45f2-9bf0-8c7a765de832}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Court" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

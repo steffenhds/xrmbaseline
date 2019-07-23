@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_goal" localizedName="Goal">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Goal" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Goal" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330100" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Self Support" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330101" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Self-Sufficiency" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330102" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Prevent Abuse, Neglect And Exploitation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330103" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Reducing Inappropriate Care" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330104" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Securing Referral For Institutional Care" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

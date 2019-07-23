@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="adx_AccountContentAccessLevel">
+    <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <FirstEntityName>adx_contentaccesslevel</FirstEntityName>
+    <SecondEntityName>Account</SecondEntityName>
+    <IntersectEntityName>adx_AccountContentAccessLevel</IntersectEntityName>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_AccountContentAccessLevel</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_AccountContentAccessLevel</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="adx_ContactContentAccessLevel">
+    <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <FirstEntityName>adx_contentaccesslevel</FirstEntityName>
+    <SecondEntityName>Contact</SecondEntityName>
+    <IntersectEntityName>adx_ContactContentAccessLevel</IntersectEntityName>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_ContactContentAccessLevel</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_ContactContentAccessLevel</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="adx_contentaccesslevel_connections1">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Connection</ReferencingEntityName>
+    <ReferencedEntityName>adx_contentaccesslevel</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>Cascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>Record1Id</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier of the source record." languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>100</NavPaneOrder>
+        <NavigationPropertyName>record1id_adx_contentaccesslevel</NavigationPropertyName>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>adx_contentaccesslevel_connections1</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="adx_contentaccesslevel_connections2">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Connection</ReferencingEntityName>
+    <ReferencedEntityName>adx_contentaccesslevel</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>Cascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>Record2Id</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier of the target record." languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

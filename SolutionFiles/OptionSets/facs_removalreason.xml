@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_removalreason" localizedName="Removal Reason">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Removal Reason" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Removal Reason" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330151" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Physical Abuse" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330152" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Sexual Abuse" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330153" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Denial Of Critical Care" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330154" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Multiple Abuse" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330155" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Delinquency" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330156" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Substance Abuse - Child" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330158" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Child's Disability" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330159" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Child's Behavior" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330160" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Incarcerated Parent" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330161" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Caretaker Inability To Cope" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330162" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Caretaker Illness" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330163" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Parent's Death" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330164" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Substance Abuse Alcohol By Parent" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330165" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Substance Abuse Other By Parent" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330166" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Substance Abuse Alcohol - Child" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330167" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Inadequate Housing" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330168" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Relinquishment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330169" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Substance Abuse Other - Child" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330601" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Delinquent - Eldora" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330602" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Delinquent - Toledo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330603" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="CINA - Toledo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330604" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="CINA - Supervision" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330605" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Delinquent - Supervision" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330606" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Interstate Compact" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330901" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Court Ordered" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330902" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Voluntary" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

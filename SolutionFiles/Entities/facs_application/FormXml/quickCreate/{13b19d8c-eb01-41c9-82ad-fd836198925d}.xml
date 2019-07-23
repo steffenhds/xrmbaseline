@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{13b19d8c-eb01-41c9-82ad-fd836198925d}</formid>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1920">
+    <tabs>
+      <tab id="{b65f3f5c-2c28-47e0-8743-44ae08ef1262}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section id="{1a3e642f-2584-482c-954d-43a46ae3f5f1}" name="Application" columns="1" showlabel="true" showbar="true" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="APPLICATION" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{86067d54-d755-15dd-c6c0-3b56069c105c}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Application Type" languagecode="1033" />
+                      </labels>
+                      <control id="facs_applicationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_applicationtype" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{d2765159-7611-515c-198d-a2ebeb35b8dd}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Application Status" languagecode="1033" />
+                      </labels>
+                      <control id="facs_applicationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_applicationstatus" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{eeaa4261-0773-9429-ecb7-c367321c134d}" showlabel="false" userspacer="true">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{eb211020-c409-5c79-c376-54c515915411}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Application Sent Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_applicationsent" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_applicationsent" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{6dade4e5-819b-36c0-c3a5-2b34337bd14a}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Application Signed Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_applicationsigneddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_applicationsigneddate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{b57d71bd-8525-a3b8-5a3c-ab9919549c51}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Accept/Reject Date" languagecode="1033" />
+                      </labels>
+                      <control id="facs_acceptrejectdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="facs_acceptrejectdate" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{70de9190-4d4f-4cb7-b36e-83a7be3a2678}" name="Family" columns="1" showlabel="true" showbar="true" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="FAMILY" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{ec039b74-96cb-e053-8792-de2e55071b67}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Adults In Family" languagecode="1033" />
+                      </labels>
+                      <control id="facs_adultsinfamily" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="facs_adultsinfamily" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{893a938b-cb62-7c77-5ed3-bc10d22039ca}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Children In Family" languagecode="1033" />
+                      </labels>
+                      <control id="facs_childreninfamily" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="facs_childreninfamily" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{a5fb9363-12e3-4e17-9af4-4a09f27c292d}" name="Income" columns="1" showlabel="true" showbar="true" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                <labels>
+                  <label description="INCOME" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{b249c639-7552-d0ab-8e77-8772447e14c6}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Monthly Family Income" languagecode="1033" />
+                      </labels>
+                      <control id="facs_monthlyfamilyincome" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="facs_monthlyfamilyincome" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{ea3e9a3d-9917-31a4-4362-3d0ab82e758e}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Income Source" languagecode="1033" />
+                      </labels>
+                      <control id="facs_incomesource" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="facs_incomesource" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Application" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

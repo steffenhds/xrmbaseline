@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_exitreason" localizedName="Exit Reason">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Exit Reason" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Exit Reason" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330961" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Return Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330962" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Transfer Custody To Other Parent" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330963" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Adoptive Placement" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330964" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Placement With A Suitable Person" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330965" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Supervised Apartment Living" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330966" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Aged Out" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330967" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Death" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330968" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Change In Placement" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330969" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Change In Level Of Care" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330971" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Return - High Structure Juvenile Program" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330972" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Eldora/Other - High Structure Juvenile Program" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330973" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Funaway" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330974" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Guardianship" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330999" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Service Never Correct" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

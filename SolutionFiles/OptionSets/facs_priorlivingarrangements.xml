@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="facs_priorlivingarrangements" localizedName="Prior Living Arrangements">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Prior Living Arrangements" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="451330000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Select Prior Living Arrangement" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330100" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330101" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Parent's Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330102" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Relative's Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330103" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Guardian's Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330104" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other Private Family Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330105" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Supervised Apartment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330106" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Adoptive Home In Iowa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330107" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Adoptive Home Out Of Iowa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330108" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Licensed Foster Family Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330109" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Licensed Foster Group Care In Iowa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330110" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Foster Group Care Out Of State" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330111" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Independent Living" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330112" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Licensed Shelter Care" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330113" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Licensed Substance Abuse Facility In Iowa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330114" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Licensed Substance Abuse Facility Out Of State" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330115" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Employment Rehab Center" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330116" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Family Life Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330117" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Adult RCF" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330118" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Adult RCF/MR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330119" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Intermediate Care Facility" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330120" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="ICF/MR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330121" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Skilled Nursing Home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330122" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hospital" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330123" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Detention Facility/Juvenile" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330124" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Adult Correctional Facility" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330125" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Eldora" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330126" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Toledo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330127" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Mental Health Institute" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330128" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="School For The Deaf" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330129" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="School For The Blind" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330130" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Unlicensed Group Living Arrangement" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="451330132" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Runaway" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

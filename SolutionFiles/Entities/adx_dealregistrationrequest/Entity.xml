@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Deal Registration Request" OriginalName="Deal Registration Request">adx_dealregistrationrequest</Name>
+  <RibbonDiffXml />
+</Entity>

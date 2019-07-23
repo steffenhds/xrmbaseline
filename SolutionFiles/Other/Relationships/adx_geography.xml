@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="adx_geography_account">
+    <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+    <IntroducedVersion>8.1.7</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <FirstEntityName>adx_geography</FirstEntityName>
+    <SecondEntityName>Account</SecondEntityName>
+    <IntersectEntityName>adx_geography_account</IntersectEntityName>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>adx_geography_account</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Geographies Covered" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_geography_account</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

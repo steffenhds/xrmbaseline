@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="pfedyn_priority" localizedName="Priority" description="The priority rank of a given item.">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Priority" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="The priority rank of a given item." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="296060000">
+      <labels>
+        <label description="1. High" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="296060001">
+      <labels>
+        <label description="2. Medium" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="296060002">
+      <labels>
+        <label description="3. Low" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>
